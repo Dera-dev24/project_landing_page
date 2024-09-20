@@ -1,0 +1,143 @@
+body{
+    flex: column;
+    padding: 0;
+    margin: 0; 
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+}
+
+.sub{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.hero-text{
+font-size: 18px;
+color: #F9FAF8;
+font-weight: 900;
+text-align: center;
+}
+
+button{
+    background-color: #3882F6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto 0px; 
+    margin-bottom: 50px;
+}
+
+.heading{
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.sub{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.subs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    justify-content: center;
+}
+
+.subs p{
+    font-weight: 100;
+}
+
+.in{
+   /* border: 2px solid blue; */
+    width: 130px;
+    height: 140px;
+    border-radius: 10px;
+}
+.second{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    padding: 80px;
+}
+
+.third{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+
+   /* padding: 50px; */
+   height: 300px
+   
+}
+
+.sign-in{
+    background-color: #3882F6;
+    padding: 40px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 700px;
+    border-radius: 10px;
+    
+}
+
+.sign-in button{
+    border: 1px solid white;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-weight: 900;
+    margin: 5px;
+    padding: 0;
+}
+
+.color{
+    color: #E5E7EB;
+    font-weight: normal;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
